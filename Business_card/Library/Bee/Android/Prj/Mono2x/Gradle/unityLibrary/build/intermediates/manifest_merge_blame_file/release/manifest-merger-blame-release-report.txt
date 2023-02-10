@@ -1,0 +1,187 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player"
+5    android:versionCode="1"
+6    android:versionName="0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="22"
+9-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+11
+12    <uses-feature android:glEsVersion="0x00030000" />
+12-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:3-52
+12-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:17-49
+13    <uses-feature
+13-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:3-91
+14        android:name="android.hardware.vulkan.version"
+14-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:17-63
+15        android:required="false" />
+15-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:64-88
+16
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:3-65
+17-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:20-62
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:3-77
+18-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:20-74
+19    <uses-permission android:name="android.permission.CAMERA" />
+19-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:3-63
+19-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:20-60
+20
+21    <uses-feature
+21-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:3-83
+22        android:name="android.hardware.camera"
+22-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:17-55
+23        android:required="false" />
+23-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:56-80
+24    <uses-feature
+24-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:3-93
+25        android:name="android.hardware.camera.autofocus"
+25-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:17-65
+26        android:required="false" />
+26-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:66-90
+27    <uses-feature
+27-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:3-89
+28        android:name="android.hardware.camera.front"
+28-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:17-61
+29        android:required="false" />
+29-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:62-86
+30
+31    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+31-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:3-69
+31-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:20-66
+32    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+32-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:3-78
+32-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:20-75
+33    <uses-permission android:name="android.permission.BLUETOOTH" />
+33-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:3-66
+33-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:20-63
+34
+35    <uses-feature
+35-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:3-87
+36        android:name="android.hardware.microphone"
+36-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:17-59
+37        android:required="false" />
+37-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:60-84
+38    <uses-feature
+38-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:3-88
+39        android:name="android.hardware.touchscreen"
+39-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:17-60
+40        android:required="false" />
+40-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:61-85
+41    <uses-feature
+41-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:3-99
+42        android:name="android.hardware.touchscreen.multitouch"
+42-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:17-71
+43        android:required="false" />
+43-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:72-96
+44    <uses-feature
+44-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:3-108
+45        android:name="android.hardware.touchscreen.multitouch.distinct"
+45-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:17-80
+46        android:required="false" />
+46-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:81-105
+47
+48    <uses-permission android:name="android.permission.MICROPHONE" />
+48-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:3-67
+48-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:20-64
+49    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+49-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:35:3-78
+49-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:35:20-75
+50    <uses-permission android:name="android.permission.Write_EXTERNAL_STORAGE" />
+50-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:36:3-79
+50-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:36:20-76
+51
+52    <application
+52-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-18:17
+53        android:allowBackup="false"
+53-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:49-76
+54        android:extractNativeLibs="true"
+54-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:16-48
+55        tools:replace="android:allowBackup" >
+55-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:77-112
+56        <activity
+56-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:5-11:16
+57            android:name="com.unity3d.player.UnityPlayerActivity"
+57-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:15-68
+58            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+58-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:180-361
+59            android:hardwareAccelerated="True"
+59-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:397-431
+60            android:launchMode="singleTask"
+60-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:148-179
+61            android:resizeableActivity="false"
+61-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:362-396
+62            android:screenOrientation="fullUser"
+62-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:111-147
+63            android:theme="@style/UnityThemeSelector"
+63-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:69-110
+64            android:usesCleartextTraffic="True" >
+64-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:432-467
+65            <intent-filter>
+65-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:7-8:23
+66                <action android:name="android.intent.action.MAIN" />
+66-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:9-61
+66-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-58
+67
+68                <category android:name="android.intent.category.LAUNCHER" />
+68-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:9-69
+68-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:19-66
+69            </intent-filter>
+70
+71            <meta-data
+71-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:7-82
+72                android:name="unityplayer.UnityActivity"
+72-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:18-58
+73                android:value="true" />
+73-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:59-79
+74            <meta-data
+74-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:7-78
+75                android:name="android.notch_support"
+75-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:18-54
+76                android:value="true" />
+76-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:55-75
+77        </activity>
+78
+79        <meta-data
+79-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:5-69
+80            android:name="unity.splash-mode"
+80-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:16-48
+81            android:value="0" />
+81-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:49-66
+82        <meta-data
+82-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:5-74
+83            android:name="unity.splash-enable"
+83-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-50
+84            android:value="True" />
+84-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:51-71
+85        <meta-data
+85-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-78
+86            android:name="unity.launch-fullscreen"
+86-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-54
+87            android:value="True" />
+87-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:55-75
+88        <meta-data
+88-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-84
+89            android:name="unity.allow-resizable-window"
+89-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-59
+90            android:value="False" />
+90-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:60-81
+91        <meta-data
+91-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-81
+92            android:name="notch.config"
+92-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-43
+93            android:value="portrait|landscape" />
+93-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:44-78
+94        <meta-data
+94-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-77
+95            android:name="com.google.ar.core"
+95-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:16-49
+96            android:value="optional" />
+96-->C:\Users\HP\Documents\Business_card\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:50-74
+97    </application>
+98
+99</manifest>
